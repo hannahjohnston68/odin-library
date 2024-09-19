@@ -1,0 +1,75 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin-left: 15px;
+}
+
+#new-book {
+    font-size: 18px; 
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin: 15px; 
+    margin-left: 0px; 
+    padding: 10px; 
+}
+
+.book-card h2 {
+    font-size: 18px;
+}
+
+.book-card p {
+    font-size: 15px; 
+}
+
+.delete-button {
+    background-color: red;
+    color: white; 
+}
+
+.overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 100; 
+}
+
+#input-form {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 101; 
+}
+
+#button-container {
+    display: flex; 
+    justify-content: flex-end;
+    gap: 5px; 
+    margin-top: 10px; 
+}
+
+#input-form .button {
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: green;
+}

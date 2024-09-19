@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header-container">
+        <h1>My Library</h1> 
+        <button id="new-book">New Book</button>
+    </div>
+
+    <div id="library-container"></div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <div id="form-container">
+        <form id="input-form" method="dialog">
+            <label for="title" >Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+    
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+    
+            <label for="year">Year:</label><br>
+            <input type="text" id="year" name="year"><br>
+
+            <div id="button-container">
+                <button type="button" id="cancel" class="button">Cancel</button><br>
+                <input type="submit" id="submit" class="button" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</html>
